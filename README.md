@@ -90,16 +90,6 @@ test-container$ sam logs -n HelloWorldFunction --stack-name test-container --tai
 
 You can find more information and examples about filtering Lambda function logs in the [SAM CLI Documentation](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-sam-cli-logging.html).
 
-## Unit tests
-
-Tests are defined in the `hello-world/tests` folder in this project. Use NPM to install the [Mocha test framework](https://mochajs.org/) and run unit tests from your local machine.
-
-```bash
-test-container$ cd hello-world
-hello-world$ npm install
-hello-world$ npm run test
-```
-
 ## Cleanup
 
 To delete the sample application that you created, use the AWS CLI. Assuming you used your project name for the stack name, you can run the following:
